@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="nb">
+        <div class="container-fluid">
+            <nav class="navbar  navbar-light navbar-expand-lg  bg-light w-100">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse " id="collapsingNavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+      <div class="modal fade" id="signIn">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h2><span class="bi bi-person-fill"></span>Login User</h2>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                
+                </div>
+                <div class="modal-body">
+                    <form action="" novalidate>
+                        <dl>
+                            <dt>Username</dt>
+                            <dd><input type="text" class="form-control" min="5" max="12" placeholder="username"></dd>
+                            <dt>Password</dt>
+                            <dd><input type="text" placeholder="password" class="form-control"></dd>
+
+                        </dl>
+                    </form>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-primary">login</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="signUp">
+        <div class="modal-dialog modal-dialog-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><span class="bi bi-person-fill">Sign Up</span></h2>
+                    <span class="btn btn-close" data-bs-dismiss="modal"></span>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <form action="">
+                            <label for="" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="enter name">
+                            <label for="" class="form-label">Email-Address</label>
+                            
+                            <input type="text" class="form-control" placeholder="Your Email-Address">
+                            <small class="form-control-plaintext">We will never share your email with others.</small>
+                            <label for="" class="form-label">Mobile Number</label>
+                            <input type="text" class="form-control" placeholder="Mobile-Number">
+                            <label for="" class="form-label">Select Gender</label>
+                                <div class="form-check" >
+                                    <input type="radio" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Male</label>
+                                  </div>
+                                  <div class="form-check" >
+                                    <input type="radio" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Female</label>
+                                  </div>
+                        </form>
+                        
+
+                    </div>
+
+                    <div class="modal-footer">
+                       <button class="btn btn-primary">Register</button>
+                       <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section class="section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="div1">
+                        <h4>ARCHITECTURE FIRM</h4>
+                        <h1>ARCHITECTURE & DESIGN</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="col-lg-12">
+                    <div class="div2">
+                        <h1>We designed People Inspired Experiences that create positive change in people's lives.</h1>
+                    </div>
+                    <div class="imgAndCard d-flex justify-content-between mt-5 pt-5">
+                        <div class="div3">
+                            <img src="images/p-09.jpg" alt="">
+                        </div>
+                        <div class="div3">
+                            <img src="images/p-12.jpg" alt="">
+                        </div>
+                        <div class="cardText">
+                            <p>The simplest solution to making a CSS circle image is to use border-radius. This is used to make rounded borders for HTML elements, so it also works for images. </p>
+                        </div>
+                        <div class="div3">
+                            <img src="images/p-13.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                     <div>
+                        <h1 style="font-weight: bolder; padding: 20px;margin: 30px;">About Our Building</h1>
+                        <h2 style="font-weight: bolder;margin: 30px;padding: 20px;">Company</h2>
+                        <p style="padding: 20px; width: 80%;margin: 30px;font-weight: 500;">Tata Consultancy Services Limited (TCS) is an Indian multinational information technology (IT) services and 
+                            consulting company headquartered in Mumbai.[6][7] It is a part of the Tata Group and 
+                            operates in 150 locations across 46 countries.[8] In September 2023, 
+                            it was reported that TCS had over 616,000 employees worldwide.</p>
+                            <button style="background-color: chocolate;color: white;width: 120px;height: 40px;border: 1px solid chocolate;margin-left: 45px;">LEARN MORE</button>
+                     </div>
+                </div>
+                <div class="col-lg-6">
+                       <div>
+                        <div class="orange">
+                        </div>
+                           <div class="bluesky">
+                               
+                           </div>
+                       </div>
+                       <div class="img1">
+                        <img src="images/p-02.jpg" alt="">
+
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <div class="orange1">
+
+                        </div>
+                        <div class="bluesky1">
+
+                        </div>
+                    </div>
+                    <div class="img2">
+                        <img src="images/p-03.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5 m-5">
+                        <h5 style="margin-bottom: 40px;margin-top: 100px;">We focus on ensuring competitive edge and strive to make the building process a positive experience for our cliens.</h5>
+                        <p style="margin-bottom: 80px;">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate </p>
+                        <button class="btn btn-secondary" style="color: white; background-color: orange;">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                     <div class="sqrImage">
+                        <img src="images/p-04.jpg" alt="">
+                     </div>
+                    <div class="col-lg-4">
+                        <div class="circleImage">
+                            <img src="images/p-05.avif" alt="">
+    
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="div5">
+                            <h1>We create architecture</h1>
+                            <p>The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaratition.
+                                The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaratition</p>
+                                <button class="btn btn-info">READ MORE</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <div class="div-text">
+        <h1 style="text-align: center;font-weight: bold;color: white; margin-top: -392px;"> Architectural Design & Research</h1>
+        <p style="text-align: center;color: white;">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+     </div>
+
+     <section class="section-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img11">
+                        <img src="images/p-06.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row" id="row1">
+                        <div class="col-lg-6">
+                            <div class="img12">
+                                <img src="images/p-07.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card1">
+                                    <img src="images/icon.png" style="width: 100px; height: 100px;color: white;">
+                                    <h2>Research</h2>
+                                    <p>CSS is designed to enable the separation of content and presentation,
+                                     including layout, colors, and fonts,including layout, colors, and fonts.</p>
+                            </div>
+                        </div>
+
+                        <div class="img13">
+                            <img src="images/p-08.jpg">
+
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <section class="section-7">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                    <div class="div-left">
+                        <h4>ABOUT US</h4>
+                        <h1>We Create Future</h1>
+                        <ul>
+                            <li><span class="bi bi-check" style="color:  rgb(5, 243, 243);"></span>Article evident arrived express</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Comfort produce husband</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Hopes worth too</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Comfort produce husband</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Boy her hand hearing</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Law others their passed</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>But wishesh you day real</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Law others theirs passed</li>
+                            <li><span class="bi bi-check" style="color: rgb(5, 243, 243);"></span>Less till dear read</li>
+                        </ul>
+                        <button class="btn btn-primary" id="btn1" style="border-radius: 25px; margin-left: 40px; margin-top: 20px; width: 150px; height: 50px;color: black; background-color: #00fbff;">Read more</button>
+                    </div>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="besideText">
+                    <img src="images/p-09.jpg">
+                </div>
+
+            </div>
+        </div>
+       </div>
+     </section>
+
+     <section class="section-8">
+        <div class="container">
+                <div class="heading">
+                    <h2 style="text-align: center; font-weight: bold; color: white;">Building Company</h2>
+                    <h6 style="text-align: center;margin-bottom: 50px; color: rgb(210, 201, 201);">Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language</h6>
+                </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white2">
+                        <img src="images/p-10.jpg" class="img-2">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white2">
+                        <img src="images/p-11.avif" class="img-2">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white2">
+                        <img src="images/p-12.jpg" class="img-2">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white2">
+                        <img src="images/p-13.jpg" class="img-2">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="section-9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="section-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white1">
+                        <img src="images/p-14.avif" class="img-3">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white1">
+                        <img src="images/p-15.avif" class="img-3">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white1">
+                        <img src="images/p-16.jpg" class="img-3">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" id="bg-white1">
+                        <img src="images/p-18.avif" class="img-3">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold;">Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                        <a href="#" style="text-align: center; text-decoration: underline; color: black;">MORE</a>
+                    </div>
+                    
+                </div>
+
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="section-11">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-12">
+                        <img src="images/p-20.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="last">
+                        <h1>Subscribe And Follow Us</h1>
+                    <p>Improving web presentation capabilities was a topic of interest to many in the web community..</p>
+                    <form>
+                        <input type="text" class="form-control">
+                        <button class="btn btn-info w-100 mt-2">Subscribe</button>
+
+                    </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+    
+    <!-- <section class="section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="div1">
+                        <h5>ARCHITECTURE FIRM</h5>
+                        <h1>ARCHITECTURE & DESIGN</h1>
+                    </div>
+                    
+                </div>
+                
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="para">We designed People Inspired Experiences that create positive change in people's lives.</h1>
+
+                    <div class="d-flex justify-content-around mt-5 pt-3">
+                        <div>
+                            <span class="circle-image">
+                                <img src="p-05.avif"/>
+                               </span>
+                        </div>
+                        <div>
+                            <span class="circle-image">
+                                <img src="p-03.jpg"/>
+                               </span>
+                        </div>
+                        <div class="cardText">
+                            <p>The simplest solution to making a CSS circle image is to use border-radius. This is used to make rounded borders for HTML elements, so it also works for images. </p>
+                        </div>
+                        <div>
+                            <span class="circle-image">
+                                <img src="p-04.jpg"/>
+                               </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex">
+                    <div class="about">
+                        <h1 style="font-weight: bolder;margin-bottom: 70px;">About Our Company</h1>
+                        <h2 style="font-weight: bold; margin-bottom: 50px;">Company</h2>
+                        <p>Tata Consultancy Services Limited (TCS) is an Indian multinational information technology (IT) services and consulting company headquartered in Mumbai.[6][7] It is a part of the Tata Group and operates in 150 locations across 46 countries.[8] In September 2023, it was reported that TCS had over 616,000 employees worldwide.</p>
+                        <button class="btn btn-success">Learn More</button>
+                    </div>
+                    <div class="index">
+                        <div class="div2">
+                            <img src="p-02.jpg" id="div2">
+                        </div>
+                        <div class="card1">
+
+                        </div>
+                        <div class="card2">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-around mt-lg-5">
+                    <div>
+                        <img src="p-06.jpg" width="400px" height="400px">
+                    </div>
+                    <div class="div3">
+                        <h3 style="margin-bottom: 40px;">We focus on ensuring competitive edge and strive to make the building process a positive experience for our cliens.</h3>
+                        <p style="margin-bottom: 80px;">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate </p>
+                        <button class="btn btn-secondary" style="color: white; background-color: orange;">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="pic">
+                        <img src="p-07.jpg" width="400px" height="450px">
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="div5">
+                        <h1 style="margin-top: 20px;">We create architecture</h1>
+                        <p>The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaratition.The name cascading comes from the specified priority scheme to determine which declaration applies if more than one declaratition</p>
+                        <div>
+                            <button class="btn btn-info" id="btn">Read more</button>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                  <div class="circle-div">
+                   <img class="img-1" src="p-08.jpg" alt="">
+                  </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="section-7">
+        <div class="container">
+            <div class="row">
+                <div class="div-text">
+                    <h1> Architectural Design & Research</h1>
+                    <p>Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                 </div>
+
+                <div class="col-lg-6">
+                    <div>
+                        <img src="p-09.jpg" width="550px" height="650px">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="imgae1">
+                                  <img src="p-10.jpg" width="294px" height="340px">
+                            </div>
+                            <div class="img-div">
+                                <img src="p-11.avif" style="width:591px; height:310px">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="div-card">
+                              <img src="icon.png" width="100px" height="100px" style="margin-top: 20px; margin-left: 10px;">
+                              <h2 style="margin-top: 20px; margin-left: 10px; font-weight: bold; color:beige;">Research</h2>
+                              <p style="color: azure; text-align: left; margin-left: 10px;">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts,including layout, colors, and fonts.</p>
+                            </div>
+                         
+                        </div>
+                    </div>
+
+                </div>
+
+              
+            </div>
+        </div>
+    </section>
+
+    <section class="section-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="div-left">
+                        <h4 style="margin-left: 40px;">ABOUT US</h4>
+                        <h1 style="margin-left: 40px;">We Create Future</h1>
+                        <ul>
+                            <li><span class="bi bi-check"></span>Article evident arrived express</li>
+                            <li><span class="bi bi-check"></span>Comfort produce husband</li>
+                            <li><span class="bi bi-check"></span>Hopes worth too</li>
+                            <li><span class="bi bi-check"></span>Comfort produce husband</li>
+                            <li><span class="bi bi-check"></span>Boy her hand hearing</li>
+                            <li><span class="bi bi-check"></span>Law others their passed</li>
+                            <li><span class="bi bi-check"></span>But wishesh you day real</li>
+                            <li><span class="bi bi-check"></span>Law others theirs passed</li>
+                            <li><span class="bi bi-check"></span>Less till dear read</li>
+                        </ul>
+                        <button class="btn btn-primary" id="btn1" style="border-radius: 25px; margin-left: 40px; margin-top: 20px; width: 150px; height: 50px;color: black; background-color: #00fbff;">Read more</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-div1">
+                        <img src="p-12.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-9">
+        <div class="container-fluid">
+
+            <div class="heading">
+                <h2 style="text-align: center; font-weight: bold; color: white;">Building Company</h2>
+                <h6 style="text-align: center;margin-bottom: 50px; color: white;">Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language</h6>
+            </div>
+            
+             <div class="row p-3" id="cards1">
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" class="cards">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-10">
+
+    </section>
+
+    <section class="section-11">
+        <div class="container">
+            <div class="row" id="cards2">
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white" class="cards">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="bg-white">
+                        <img src="p-13.jpg" class="img2">
+                        <h3>Design-Build</h3>
+                        <p class="p1">Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="btn1">Read more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-12">
+        <div class="container">
+            <div class="row" id="last-div">
+                <div class="col-lg-6">
+                    <img src="p-17.jpg" class="img3">
+
+                </div>
+
+                <div class="col-lg-6" id="last">
+                    <h1 style="font-weight: bold; padding: 20px;">Subscribe And Follow Us</h1>
+                    <p>Improving web presentation capabilities was a topic of interest to many in the web community..</p>
+                    <form>
+                        <input type="text" class="form-control">
+                        <button class="btn btn-info w-100 mt-2">Subscribe</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     -->
+    
